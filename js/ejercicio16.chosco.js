@@ -9,3 +9,9 @@ const sumarRango = (numeroInicial, numeroFinal) => {
 
     return suma;
 };
+if (inicio <= fin) {
+    const resultado = sumarRango(inicio, fin);
+    console.log(`La suma desde ${inicio} hasta ${fin} es: ${resultado}`);
+} else {
+    console.log("El numero inicial debe ser menor o igual al numero final.");
+}
