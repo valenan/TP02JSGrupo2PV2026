@@ -1,6 +1,6 @@
 import { guardarEstudianteEnArray, mostrarEstudiante } from "../services/servicepunto20.js";
 import { servicioGuanactolayFranco } from "../services/serviceGuanactolayFranco.js";
-
+import { servicioChoscoFabricio } from "../services/serviceChoscoFabricio.js";
 import { servicioValentinAngulo } from "../services/serviceValentinAngulo.js";
 
 // Esperar al DOM
