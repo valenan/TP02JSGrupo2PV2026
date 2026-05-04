@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #14508C;
+}
+.boton{
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 50%;
+    background-color: rgb(126, 116, 116);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
