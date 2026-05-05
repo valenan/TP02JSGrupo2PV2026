@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 21</title>
+<link rel="stylesheet" href="../../assets/css/style21.css">
+
+</head>
+<body>
+
+  <h2>Seleccionar pais y capital</h2>
+
+<div class="contenedor">
+  <label>País:</label>
+  <select id="paises">
+    <option value="Argentina">Argentina</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Chile">Chile</option>
+    <option value="Perú">Perú</option>
+    <option value="Uruguay">Uruguay</option>
+    <option value="Colombia">Colombia</option>
+  </select>
+
+  <br><br>
+
+  <!-- Lista de capitales -->
+  <label>Capital:</label>
+  <select id="capitales">
+    <option value="Buenos Aires">Buenos Aires</option>
+    <option value="Brasilia">Brasilia</option>
+    <option value="Santiago">Santiago</option>
+    <option value="Lima">Lima</option>
+    <option value="Montevideo">Montevideo</option>
+    <option value="Bogotá">Bogotá</option>
+  </select>
+</div>
+  <script>
+    const paises = document.getElementById("paises");
+    const capitales = document.getElementById("capitales");
+
+    // Relación país → capital
+    const datos = {
+      Argentina: "Buenos Aires",
+      Brasil: "Brasilia",
+      Chile: "Santiago",
+      Perú: "Lima",
+      Uruguay: "Montevideo",
+      Colombia: "Bogotá"
+    };
+
+    paises.addEventListener("change", () => {
+      const paisSeleccionado = paises.value;
+      const capitalCorrespondiente = datos[paisSeleccionado];
+
+      capitales.value = capitalCorrespondiente;
+
+      console.log(`País: ${paisSeleccionado} - Capital: ${capitalCorrespondiente}`);
+    });
+  </script>
+
+</body>
+</html>
