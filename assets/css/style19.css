@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* contenedor tipo tarjeta */
+.contenedor {
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.15);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* título */
+h1 {
+    color: #22c55e;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* texto */
+p {
+    color: #cbd5f5;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+/* botón estilo neon */
+button {
+    background-color: transparent;
+    color: #22c55e;
+    border: 2px solid #22c55e;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #22c55e;
+    color: #0f172a;
+    box-shadow: 0 0 10px #22c55e;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
