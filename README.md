@@ -1,3 +1,10 @@
+Valentin Angulo: valenan
+Inti Aragon: inti36
+Franco Guanactolay: franclyc
+Santino Tito: slendertroll777
+Chosco Fabricio: fabrippp
+
+
 PROFESOR LEALO PORFAVOR
 
 soy santino tito de la escuela de minas, el mismo que no le conto el tp anterior por no poner el nombre en el branch, aprendi y cambie, lo malo
