@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Texto en tiempo real</title>
+<link rel="stylesheet" href="../../assets/css/style23.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+<h1>Escritura en tiempo real</h1>
+
+<label for="campoTexto">Escribi algo:</label>
+<input type="text" id="campoTexto" placeholder="Escribi acá...">
+
+<p id="contador">0 caracteres</p>
+
+<div id="mostrarTexto">El texto aparecera acá...</div>
+</div>
+
+<script>
+var campoTexto = document.getElementById("campoTexto");
+var mostrarTexto = document.getElementById("mostrarTexto");
+var contador = document.getElementById("contador");
+
+campoTexto.addEventListener("input", function()
+{
+let texto = campoTexto.value;
+let cantidad = texto.length;
+
+mostrarTexto.textContent=texto;
+contador.textContent= cantidad+" caracteres";
+
+  // Cambia fondo si sup 20 caracteres
+if (cantidad>20)
+{
+mostrarTexto.style.backgroundColor="#f28b82";
+} else 
+{
+mostrarTexto.style.backgroundColor="#f9f9f9";
+}
+
+// CONSOLA
+console.log("Texto ingresado: " + texto + " | Caracteres: " + cantidad);
+});
+</script>
+
+</body>
+</html>
