@@ -1,7 +1,7 @@
-Valentin Angulo: valenan
-Inti Aragon: inti36
-Franco Guanactolay: franclyc
-Santino Tito: slendertroll777
+Valentin Angulo: valenan <br>
+Inti Aragon: inti36 <br>
+Franco Guanactolay: franclyc <br>
+Santino Tito: slendertroll777 <br>
 Chosco Fabricio: fabrippp
 
 
